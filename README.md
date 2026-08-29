@@ -1,39 +1,52 @@
-# Ayesha Khan — Portfolio
+# Personal Portfolio Website
 
-Plain HTML/CSS/JS portfolio. No build step, no dependencies — just open `index.html` in a browser, or deploy it straight to Vercel.
+A personal developer portfolio website showcasing my projects, skills, experience, and contact information.
 
-## Files
-- `index.html` — page structure & content
-- `style.css` — all styling (mustard + white theme)
-- `script.js` — mobile menu, active-tab highlight, scroll reveal
-- `images/` — put your screenshots here
+##  Technologies Used
 
-## Things to update before sending this out
+* HTML5
+* CSS3
+* JavaScript
 
-1. **Contact info** — in `index.html`, find the `contact.sh` terminal block and replace:
-   - `your.email@example.com`
-   - `github.com/your-username`
-   - `linkedin.com/in/your-profile`
+##  Features
 
-2. **Project & design images** — drop image files into `images/` with these exact names (or change the `src` in `index.html` to match your filenames):
-   - `images/crew-project.jpg`
-   - `images/bank-management.jpg`
-   - `images/figma-ui.jpg`
-   - `images/canva-product.jpg`
-   
-   Until an image is added, that spot shows a clean placeholder pattern instead of a broken image — so the site still looks finished.
+* Responsive design
+* About Me section
+* Skills and technologies
+* Projects showcase
+* Contact section
+* Responsive navigation
+* Interactive elements using JavaScript
 
-3. **Project descriptions** — the Crew Project text is a generic placeholder since exact details weren't provided. Search `index.html` for "PROJECT 1 — CREW PROJECT" and edit the paragraph + tag list to match the real project.
+## 📂 Project Structure
 
-4. **Third design piece** — the "More on the way" card in the Design section is ready for whatever you add next. Duplicate one of the two filled design-cards above it and fill in the details when ready.
+```text
+Portfolio/
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── images/
+```
 
-5. **Project links** — the "View project →" links currently point to `#`. Point them at GitHub repos, live demos, or case studies once you have them.
+##  Live Website
 
-## Deploying to Vercel
+[View my portfolio](https://ayeshakhan-portfolio.vercel.app/)
 
-1. Push this folder to a GitHub repo (or drag-and-drop the folder into Vercel's dashboard).
-2. In Vercel: **New Project → Import** your repo.
-3. Framework preset: choose **Other** (it's a static site, no build command needed).
-4. Deploy. Vercel will give you a live URL you can share with the company.
+##  About
+
+This portfolio was designed and developed by me to showcase my development projects, technical skills, and experience.
+
+##  Projects
+
+The portfolio currently includes projects such as:
+
+* Bank Management System
+* Mind Maze
+* UI/Graphic Design Projects
+
+##  License
+
+This project is for personal portfolio and learning purposes.
 
 No environment variables, no backend, nothing else to configure.
