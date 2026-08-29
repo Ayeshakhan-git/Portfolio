@@ -192,10 +192,27 @@ body {
     border-left: 4px solid var(--primary-brown);
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
     transition: transform 0.3s ease;
+        position: relative;
+
 }
 
 .project-card:hover {
     transform: translateY(-5px);
+}
+
+.github-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.github-icon:hover {
+    color: var(--primary-brown);
+    transform: scale(1.15);
 }
 
 .project-card h3 {
