@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayesha Khan | Software Engineering Student</title>
+    <!-- Google Fonts for matching typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-box">AK</span> PROFILE
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#contact">CONTACT ME</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+    <div class="hero-content">
+        <h1 class="greeting">
+            <span class="brown-text">HELLO</span><br>
+            <span class="brown-text">MY NAME IS</span><br>
+            <span class="brown-text name">AYESHA KHAN</span>
+        </h1>
+        <p class="subtitle">Software Engineering Student & Passionate Learner</p>
+        
+        <div class="btn-group">
+            <!-- Working GitHub Profile Link -->
+            <!-- IMPORTANT: replace 'your-username' below with your real GitHub username so this button works -->
+            <a href="https://github.com/Ayeshakhan-git" target="_blank" rel="noopener noreferrer" class="btn btn-outline">GITHUB PROFILE</a>
+        </div>
+    </div>
+
+    <!-- Reserved Empty Photo Area (No image used) -->
+    <div class="hero-image-placeholder">
+        <!-- Space left intentionally blank -->
+    </div>
+</section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">ABOUT ME</h2>
+        <p class="about-text">
+            Hi! I'm Ayesha Khan, a Software Engineering student with a strong passion for developing web and mobile applications. 
+            I love learning new technologies, solving complex problems, and creating user-friendly digital experiences.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-light">
+        <h2 class="section-title">PROJECTS</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Crew</h3>
+                <p>A flutter based mobile app for campus to handle campus related issues and admistartor will handle them  and notify students.</p>
+                <span class="tag">Flutter / Dart</span>
+                 <button type="button" class="btn btn-outline preview-btn" data-gallery="crew-gallery">PREVIEW</button>
+
+            </div>
+            <div class="project-card">
+                <h3>Bank Management System</h3>
+               
+                <p>A comprehensive software solution designed to manage customer accounts, transactions, and banking data efficiently.</p>
+ 
+                <span class="tag">java/oop</span>
+                <button type="button" class="btn btn-outline preview-btn" data-gallery="bank-gallery">PREVIEW</button>
+
+            </div>
+
+             <div class="project-card">
+                <h3>MindMaze</h3>
+                <p>A small-scale, multi-level game built using Tkinter for the GUI and PIL (Pillow) for image handling. This project focuses on combining game logic, event-level programming, and UI design into a structured application.</p>
+                <span class="tag">Python / Tkinter</span>
+<button type="button" class="btn btn-outline preview-btn" data-gallery="mindmaze-gallery">PREVIEW</button>            </div>
+            <div class="project-card">
+                <h3>Designing</h3>
+                <p>A showcase of UI/UX and graphic design work, from concept sketches to polished visuals.</p>
+                <span class="tag">Figma / Canva</span>
+                <!-- Clicking Preview opens a popup with the images only -->
+                <button type="button" class="btn btn-outline preview-btn" data-gallery="designing-gallery">PREVIEW</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+            <section id="skills" class="section">
+        <h2 class="section-title">SKILLS</h2>
+
+        <div class="skills-container">
+            <span class="skill-badge">Flutter</span>
+            <span class="skill-badge">Dart</span>
+            <span class="skill-badge">Java</span>
+            <span class="skill-badge">C</span>
+            <span class="skill-badge">JavaScript</span>
+            <span class="skill-badge">HTML</span>
+            <span class="skill-badge">CSS</span>
+            <span class="skill-badge">SQL</span>
+            <span class="skill-badge">React</span>
+            <span class="skill-badge">Figma</span>
+            <span class="skill-badge">Canva</span>
+        </div>
+
+        <h3 class="skills-subtitle">Backend & Frameworks</h3>
+        <div class="skills-container">
+            <span class="skill-badge">Laravel</span>
+            <span class="skill-badge">Node.js</span>
+            <span class="skill-badge">Firestore</span>
+        </div>
+    </section>
+    <!-- Contact Section -->
+     
+    <section id="contact" class="section bg-light">
+    <h2 class="section-title">CONTACT ME</h2>
+    <div class="contact-container">
+        <p>Feel free to reach out to me for collaborations or opportunities!</p>
+        <div class="contact-links">
+            <!-- Email Link -->
+           <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ayeshakhanw47@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-card">
+    <strong>Email:</strong> ayeshakhanw47@gmail.com
+</a>
+            <!-- Working LinkedIn Link -->
+            <a href="https://www.linkedin.com/in/aayeshakhann" target="_blank" rel="noopener noreferrer" class="contact-card">
+                <strong>LinkedIn:</strong> linkedin.com/in/aayeshakhann
+            </a>
+        </div>
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2026 Ayesha Khan. All rights reserved.</p>
+    </footer>
+
+    <!-- Image Preview Popup: shows ONLY images, no other buttons/links -->
+        <div class="modal-overlay" id="designing-gallery">
+        <div class="modal-box">
+            <button type="button" class="modal-close" aria-label="Close preview">&times;</button>
+            <div class="modal-images">
+                <img src="images/design-1.jpg" alt="Design work 1">
+                <img src="images/design-2.jpg" alt="Design work 2">
+                <img src="images/design-3.jpg" alt="Design work 3">
+                <img src="images/design-4.jpg" alt="Design work 4">
+                <img src="images/design-5.jpg" alt="Design work 5">
+                <img src="images/design-6.jpg" alt="Design work 6">
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="mindmaze-gallery">
+        <div class="modal-box">
+            <button type="button" class="modal-close" aria-label="Close preview">&times;</button>
+            <div class="modal-images">
+                <img src="images/mind maze start.PNG" alt="MindMaze screenshot 1">
+                <img src="images/mindmaze 2.PNG" alt="MindMaze screenshot 2">
+                <img src="images/mindmaze 3.PNG" alt="MindMaze screenshot 3">
+                <img src="images/mindmaze 4.PNG" alt="mindmaze screenshot 4">
+            </div>
+        </div>
+    </div>
+        <div class="modal-overlay" id="bank-gallery">
+        <div class="modal-box">
+            <button type="button" class="modal-close" aria-label="Close preview">&times;</button>
+            <div class="modal-images">
+                <img src="images/atm 1.PNG" alt="Bank Management System screenshot 1">
+                <img src="images/atm2.PNG" alt="Bank Management System screenshot 2">
+                <img src="images/atm3.PNG" alt="Bank Management System screenshot 3">
+                                <img src="images/atm4.PNG" alt="Bank Management System screenshot 3">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
