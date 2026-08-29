@@ -44,6 +44,7 @@ The portfolio currently includes projects such as:
 * Bank Management System
 * Mind Maze
 * UI/Graphic Design Projects
+* CREW-Campus reporting and emergency workflow
 
 ##  License
 
